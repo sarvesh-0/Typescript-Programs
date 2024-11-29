@@ -5,6 +5,8 @@ class SuperHero{
     private origin:string
     private canFly:boolean
 
+    //We can only add one constructor in typeScript class 
+    //either default or parameterized constructor 
     constructor(sN:string,sP:string,o:string,cF:boolean){
         this.superHeroName = sN;
         this.superPower = sP;
