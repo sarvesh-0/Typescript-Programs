@@ -2,7 +2,6 @@ import { calPercentage } from "./calPercent";
 
 export function grades(mrk:number[]):string{
 var marks:number = calPercentage(mrk);
-console.log("Percentage = "+marks);
 var grade:string;
 
 if(marks>=90 && marks<=100){
